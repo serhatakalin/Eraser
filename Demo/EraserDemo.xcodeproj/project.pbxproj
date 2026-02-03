@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ER0010010000000000000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ER0020010000000000000001 /* AppDelegate.swift */; };
+		ER0010020000000000000001 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ER0020020000000000000001 /* SceneDelegate.swift */; };
+		ER0010030000000000000001 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ER0020030000000000000001 /* ViewController.swift */; };
+		ER0010050000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ER0020050000000000000001 /* Assets.xcassets */; };
+		ER0010060000000000000001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ER002006B000000000000001 /* LaunchScreen.storyboard */; };
+		ER0010070000000000000001 /* Eraser in Frameworks */ = {isa = PBXBuildFile; productRef = ER0030010000000000000001 /* Eraser */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ER0000010000000000000001 /* EraserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EraserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ER0020010000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ER0020020000000000000001 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ER0020030000000000000001 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ER0020050000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ER002006A000000000000001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ER0020070000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ER0040010000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ER0010070000000000000001 /* Eraser in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ER0050010000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				ER0050020000000000000001 /* EraserDemo */,
+				ER0050030000000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ER0050020000000000000001 /* EraserDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ER0020010000000000000001 /* AppDelegate.swift */,
+				ER0020020000000000000001 /* SceneDelegate.swift */,
+				ER0020030000000000000001 /* ViewController.swift */,
+				ER0020050000000000000001 /* Assets.xcassets */,
+				ER002006B000000000000001 /* LaunchScreen.storyboard */,
+				ER0020070000000000000001 /* Info.plist */,
+			);
+			path = EraserDemo;
+			sourceTree = "<group>";
+		};
+		ER0050030000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ER0000010000000000000001 /* EraserDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ER0060010000000000000001 /* EraserDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ER0070020000000000000001 /* Build configuration list for PBXNativeTarget "EraserDemo" */;
+			buildPhases = (
+				ER0060020000000000000001 /* Sources */,
+				ER0040010000000000000001 /* Frameworks */,
+				ER0060030000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EraserDemo;
+			packageProductDependencies = (
+				ER0030010000000000000001 /* Eraser */,
+			);
+			productName = EraserDemo;
+			productReference = ER0000010000000000000001 /* EraserDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ER0080010000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = ER0070010000000000000001 /* Build configuration list for PBXProject "EraserDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ER0050010000000000000001;
+			packageReferences = (
+				ER0090010000000000000001 /* XCLocalSwiftPackageReference "Eraser" */,
+			);
+			productRefGroup = ER0050030000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ER0060010000000000000001 /* EraserDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ER0060030000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ER0010050000000000000001 /* Assets.xcassets in Resources */,
+				ER0010060000000000000001 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ER0060020000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ER0010010000000000000001 /* AppDelegate.swift in Sources */,
+				ER0010020000000000000001 /* SceneDelegate.swift in Sources */,
+				ER0010030000000000000001 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ER002006B000000000000001 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ER002006A000000000000001 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ER0070030000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ER0070040000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ER0070050000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = EraserDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eraser.eraserdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ER0070060000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = EraserDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eraser.eraserdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ER0070010000000000000001 /* Build configuration list for PBXProject "EraserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ER0070030000000000000001 /* Debug */,
+				ER0070040000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ER0070020000000000000001 /* Build configuration list for PBXNativeTarget "EraserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ER0070050000000000000001 /* Debug */,
+				ER0070060000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		ER0090010000000000000001 /* XCLocalSwiftPackageReference "Eraser" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ER0030010000000000000001 /* Eraser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ER0090010000000000000001 /* XCLocalSwiftPackageReference "Eraser" */;
+			productName = Eraser;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ER0080010000000000000001 /* Project object */;
+}
